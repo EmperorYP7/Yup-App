@@ -1,4 +1,4 @@
-import 'package:FlutterChat/screens/homescreen.dart';
+import 'package:Yup/screens/homescreen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());

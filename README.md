@@ -1,7 +1,6 @@
-# Yup! App
+# Yup
 
-Here's a fun way to chat with your friends! The app is under development. Will add nice little features as I progress developing the app.
-Hope you'll like the UI design which will be made using Flutter &copy; by Google Inc.
+A new Flutter project.
 
 ## Getting Started
 

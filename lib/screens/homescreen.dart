@@ -1,5 +1,5 @@
-import 'package:FlutterChat/widgets/category_selector.dart';
-import 'package:FlutterChat/widgets/favourite_contacts.dart';
+import 'package:Yup/widgets/category_selector.dart';
+import 'package:Yup/widgets/favourite_contacts.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {

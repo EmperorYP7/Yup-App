@@ -31,7 +31,7 @@ class _CategorySelectorState extends State<CategorySelector> {
 
                         ),
                       child: Text(categories[index], style: TextStyle(
-                        color: index == selectedIndex? Colors.white : Colors.white60,
+                        color: index == selectedIndex ? Colors.white : Colors.white60,
                         fontSize: 24.0,
                         fontWeight: FontWeight.bold,
                         letterSpacing: 1.2,
@@ -43,3 +43,4 @@ class _CategorySelectorState extends State<CategorySelector> {
               ),
     );
   }
+}

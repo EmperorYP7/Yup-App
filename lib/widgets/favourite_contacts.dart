@@ -1,5 +1,5 @@
 
-import 'package:FlutterChat/models/message_model.dart';
+import 'package:Yup/models/message_model.dart';
 import 'package:flutter/material.dart';
 
 class FavouriteContacts extends StatelessWidget {
