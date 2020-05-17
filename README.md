@@ -1,6 +1,6 @@
 # Yup
 
-A new Flutter project.
+This is a sleek UI based chatting app made with Flutter.
 
 ## Getting Started
 

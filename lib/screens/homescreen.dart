@@ -45,8 +45,20 @@ class _HomeScreenState extends State <HomeScreen> {
                 ),
                 child: Column(children: <Widget>[
                   FavouriteContacts(),
-                  Container(
-                    color: Color.fromRGBO(36, 36, 36, 1)
+                  Expanded(
+                      child: Container(
+                      decoration: BoxDecoration(
+                    color: Color.fromRGBO(36, 36, 36, 1),
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(30.0), 
+                      topRight: Radius.circular(30.0)
+                      ),
+                ),
+                child: ListView.builder(
+                  itemCount: ,
+                  itemBuilder: (BuildContext context),
+                ),
+                ),
                   ),
                 ],
                 ),
