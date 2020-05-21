@@ -4,8 +4,6 @@ This is a sleek UI based chatting app made with Flutter.
 
 The source code can be found in the `lib` folder.
 
-The `main.dart` file contains the build context of the app.
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
