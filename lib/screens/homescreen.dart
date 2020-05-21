@@ -1,5 +1,6 @@
 import 'package:Yup/widgets/category_selector.dart';
 import 'package:Yup/widgets/favourite_contacts.dart';
+import 'package:Yup/widgets/recent_chats.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -45,21 +46,7 @@ class _HomeScreenState extends State <HomeScreen> {
                 ),
                 child: Column(children: <Widget>[
                   FavouriteContacts(),
-                  Expanded(
-                      child: Container(
-                      decoration: BoxDecoration(
-                    color: Color.fromRGBO(36, 36, 36, 1),
-                    borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(30.0), 
-                      topRight: Radius.circular(30.0)
-                      ),
-                ),
-                child: ListView.builder(
-                  itemCount: ,
-                  itemBuilder: (BuildContext context),
-                ),
-                ),
-                  ),
+                  RecentChats(),
                 ],
                 ),
               ),

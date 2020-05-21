@@ -32,7 +32,7 @@ class FavouriteContacts extends StatelessWidget {
           ),
           Container(
             height: 120.0,
-            color: Colors.black38,
+            color: Colors.black,
             child: ListView.builder(
               padding: EdgeInsets.only(left:10.0),
               scrollDirection: Axis.horizontal,
